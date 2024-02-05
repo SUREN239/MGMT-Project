@@ -1,0 +1,60 @@
+
+body{
+  height: 100px;
+  /* width: 10px; */
+}
+nav{
+  margin-top:-16rem;
+
+}
+.navdiv {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 70vw;
+  padding: 10px 20px ;
+  border-radius: 50px;
+  
+  
+  margin-top:0;
+  background-color: black; 
+  color: white; 
+}
+
+.navdiv ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navdiv ul li {
+  margin-right: 20px;
+  font-size: 16px;
+  
+
+}
+
+.navdiv a {
+  text-decoration: none;
+  color: white; 
+}
+
+.navdiv a:hover {
+  transform: scale(1.1) ;
+}
+
+.navdiv button {
+  
+  background-color: blue ;
+  color: white; 
+  padding: 10px 20px;
+  justify-content:left;
+  cursor: pointer;
+}
+
+.navdiv button:hover {
+  background-color: blue; 
+}
